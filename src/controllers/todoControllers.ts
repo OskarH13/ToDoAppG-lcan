@@ -96,7 +96,7 @@ export const getTodoById = (req: Request, res: Response): void => {
     
     try {
       // Parsen der JSON-Daten
-      const todos = JSON.parse(data).todos
+      const todos = JSON.parse(data)
 
       // Senden der Todos als Antwort
       console.log(todos)
